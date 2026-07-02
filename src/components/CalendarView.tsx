@@ -30,8 +30,9 @@ export const CalendarView: React.FC<CalendarViewProps> = ({
   currentDateStr
 }) => {
   // Local active calendar date navigation
-  const [currentYear, setCurrentYear] = useState(2026);
-  const [currentMonth, setCurrentMonth] = useState(5); // June (0-indexed standard, so 5 = June)
+  const [currentYear, setCurrentYear] = useState(() => new Date().getFullYear());
+  const [currentMonth, setCurrentMonth] = useState(() => new Date().getMonth());
+  
 
   // Use current selected date
   const [selectedDateStr, setSelectedDateStr] = useState(currentDateStr);
