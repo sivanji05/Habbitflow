@@ -163,7 +163,7 @@ export default function App() {
             NS
           </div>
           <div>
-            <h2 className="text-base font-extrabold tracking-tight dark:text-white leading-none">Sivanji's HabbitFlow</h2>
+            <h2 className="text-base font-extrabold tracking-tight dark:text-white leading-none"> HabbitFlow</h2>
             <span className="text-[10px] text-indigo-500 font-extrabold uppercase tracking-widest mt-0.5 inline-block">Let's Do IT</span>
           </div>
         </div>
