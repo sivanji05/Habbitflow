@@ -273,7 +273,7 @@ export default function App() {
             </div>
           </div>
 
-          < className="flex items-center gap-4">
+          <div className="flex items-center gap-4">
             <div className="relative max-w-xs hidden sm:block">
               <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">
                 <SearchIcon size={14} />
@@ -317,7 +317,7 @@ export default function App() {
               <span>Portfolio</span>
               <ExternalLink size={12} />
             </a>
-        </div>
+          </div>
 
         </header>
 
