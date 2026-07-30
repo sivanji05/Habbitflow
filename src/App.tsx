@@ -317,6 +317,7 @@ export default function App() {
               <span>Portfolio</span>
               <ExternalLink size={12} />
             </a>
+          </div>
 
         </header>
 
