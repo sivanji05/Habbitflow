@@ -286,14 +286,14 @@ export default function App() {
                 className="w-48 focus:w-60 bg-slate-50 dark:bg-[#1E293B] text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 rounded-xl pl-9 pr-3.5 py-1.5 text-xs focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 dark:focus:border-indigo-400 transition-all outline-none"
               />
             </div>
-            <button
+            {/* <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
               className="p-2 rounded-xl bg-slate-50 dark:bg-[#1E293B] border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-350 hover:text-indigo-600 dark:hover:text-indigo-400 transition font-bold cursor-pointer"
               title="Toggle theme"
             >
               {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
             </button>
-          </div>
+          </div> */}
 
           {/* Supabase status pill */}
           {supabaseConfigured ? (
@@ -307,6 +307,16 @@ export default function App() {
               <span className="text-[10px] font-extrabold text-red-500 uppercase tracking-wider hidden sm:block">Not Connected</span>
             </div>
           )}
+
+           <a
+              href="https://sivanji.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/20 bg-indigo-500/10 px-2.5 py-1.5 text-[10px] font-extrabold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 hover:bg-indigo-500/20 transition no-print"
+            >
+              <span>Portfolio</span>
+              <ExternalLink size={12} />
+            </a>
 
         </header>
 
