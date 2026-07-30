@@ -12,6 +12,7 @@ import {
   Sun,
   Moon,
   Search as SearchIcon,
+  ExternalLink,
 } from 'lucide-react';
 
 import { Habit, HabitLogs } from './types';
@@ -38,6 +39,7 @@ export default function App() {
     error,
     supabaseConfigured,
     syncSuccessMessage,
+  
     initialize,
     setTheme,
     setActiveTab,
